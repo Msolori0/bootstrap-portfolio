@@ -1,13 +1,131 @@
 .image{
-  width: 250px;
-  height:300px;
+  width: 300px;
+  height:350px;
 
 }
 
-.imgs{
-  width: 70px;
+.social{
+  width: 50px;
 }
 
-.panel-panel-default{
-  float: left
+.panel-body {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+h1 {
+  border-bottom: 1px solid grey;
+}
+
+#contact-form ul {
+  margin-bottom: 20px;
+}
+
+#contact-form li {
+  margin-bottom: 10px;
+}
+
+label,
+input[type=text],
+input[type=email],
+textarea {
+  display: block;
+  width: 100%;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  height: 35px;
+  padding: 0 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+}
+
+textarea {
+  height: 200px
+}
+
+input[type=submit] {
+  padding: 10px 30px;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+  background: #4aaaa5;
+  border: 0 none;
+}
+
+.work {
+  position: relative;
+  float: left;
+  width: 270px;
+  margin: 20px 0 25px;
+  overflow: auto;
+  margin-left: 5px
+}
+
+.work:nth-child(even) {
+  margin-right: 40px;
+}
+
+.work img {
+  width: 100%;
+  border: 0 none;
+  opacity: 0.8;
+
+}
+
+.work h3 {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 30px;
+  color: #fff;
+  text-align: center;
+  background: #4aaaa5;
+  border-bottom: 0;
+}
+
+.auth-image {
+  float: left;
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+}
+
+
+.sidebar {
+  background: #fff;
+  padding: 5px;
+  width: 100%;
+  max-width: 350px;
+  float: right;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  text-align: center
+
+}
+
+h3, .sidebar, h2 {
+  border-bottom: 2px solid #eeee;
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+  line-height: 22px;
+}
+
+.social{
+  width:62px;
+  height: 62px;
+  margin-top: 8px;
+  margin-right: 5px;
+}
+.social:last-child {
+  margin-right: 0;
 }
